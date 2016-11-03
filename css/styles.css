@@ -75,7 +75,7 @@ html {
 #rise .bcg{
  background-color: black;
  display: inline;
- height:440px;
+ height:500px;
  position:absolute;
  top:250px;
  left:0px;
@@ -251,7 +251,7 @@ display: inline-block;
    height: 130px;
    background-size: 150px;
  }
- 
+
  #mobile-h3 {
    text-size:10px;
  }
