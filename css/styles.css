@@ -89,12 +89,20 @@ html {
   display:inline-block;
 }
 
+#komo:hover {
+  box-shadow: -8px 12px 44px grey;
+}
+
 #armory {
 width:180px;
 background:  url(../imgs/armory_snippet.png) 0px 0px;
 height:160px;
 background-size: 180px;
 display: inline-block;
+}
+
+#armory:hover {
+  box-shadow: 8px 12px 44px grey;
 }
 
 .hover {
@@ -170,7 +178,8 @@ display: inline-block;
   padding-right:15px;
 }
 #open-modal:hover {
-  color:lightgrey;
+  color:black;
+  box-shadow: 1px 2px 3px #000;
 }
 /**/
 /**/
