@@ -75,7 +75,7 @@ html {
 #rise .bcg{
  background-color: black;
  display: inline;
- height:500px;
+ height:590px;
  position:absolute;
  top:250px;
  left:0px;
@@ -89,9 +89,6 @@ html {
   display:inline-block;
 }
 
-#komo:hover {
-  box-shadow: -8px 12px 44px grey;
-}
 
 #armory {
 width:180px;
@@ -101,9 +98,7 @@ background-size: 180px;
 display: inline-block;
 }
 
-#armory:hover {
-  box-shadow: 8px 12px 44px grey;
-}
+
 
 .hover {
       background-color: rgba(0, 0, 0, 0.55);
@@ -172,7 +167,7 @@ display: inline-block;
 #open-modal {
   background-color:transparent;
   color:white;text-decoration:none;position:absolute;
-  top:160px;
+  top:225px;
   border: 1px solid white;
   padding-left:15px;
   padding-right:15px;
@@ -186,15 +181,6 @@ display: inline-block;
 
 
 
-
-#footer .bcg {
-  display:inline;
-  position:absolute;
-  background-color:darkgrey;
-  height:50px;
-  left:0;
-  top:750px;
-}
 
 .spritesheet {
   background: url(../imgs/iconsprites.png) center no-repeat;
@@ -221,7 +207,7 @@ display: inline-block;
 	width: 47px;
 	height: 45px;
   top:1px;
-  left:calc(52% - 45px);
+  left:calc(50% - 20px);
   position: absolute;
 }
 #spritetwitter:hover {
@@ -265,10 +251,23 @@ display: inline-block;
  }
 
 #open-modal {
-  top:131px;
+  top:186px;
+}
+.desktop-only {
+  display:none;
+ }
 }
 
+@media (min-width:440px) {
+  .mobile-only {
+    display:none;
+  }
+
+  #rise {
+    height:850px;
+  }
 }
+
 
 
   /*button#myBtn.under-button-1 {
