@@ -126,6 +126,7 @@ display: inline-block;
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
     pointer-events: none;
+
 }
 .modalDialog:target {
     opacity:1;
@@ -256,7 +257,21 @@ display: inline-block;
 .desktop-only {
   display:none;
  }
+ .modalDialog > div {
+     width: 320px;
+     position: relative;
+     padding: 3px 10px 7px 10px;
+     border-radius: 0px;
+     background: #fff;
+     background: -moz-linear-gradient(#fff, #999);
+     background: -webkit-linear-gradient(#fff, #999);
+     background: -o-linear-gradient(#fff, #999);
+ }
+ .modalDialog p {
+   font-size: smaller;
+ }
 }
+
 
 @media (min-width:440px) {
   .mobile-only {
