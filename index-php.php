@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php 
+	get_header();
+	?>
+	
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
@@ -19,8 +22,8 @@
 <div id="div-wrapper" class="single-div">
     <div id="header">
       <div class="bcg layer">
-        <h1 style="text-align:centered;color:white;"> Hello </h1>
-        <h3 id="heading"> I build websites & web applications  </h3>
+        <h1 style="text-align:center;color:white;"> Hello </h1>
+        <h3> I build websites & web applications  </h3>
       </div>
       <img id="me" style="z-index:1;width:140px;border-radius:100%;top:90px;position:absolute;left:calc(50% - 70px);" src="imgs/face.jpg"/>
     </div>
@@ -28,29 +31,18 @@
     <div id="bar" class="single-div">
       <div class="bcg">
         <div class="center-bar">
-          <!-- <span id="items">
+          <span id="items">
             <a href="work.html"<h2 style="border:1px solid white;padding-left:10px;padding-right:10px;top:15px;text-decoration:none;position:absolute;left:calc(50% -110px);color:white;">Request Job</h2></a>
-          </span> -->
+          </span>
         </div>
       </div>
     </div>
 
-    <div id="rise"class="single-div row">
+    <div id="rise"class="single-div">
       <div class="bcg">
    <h3 style="color:white;"> Sample work </h3>
-
-   <div class="container">
-       <div class="row row-centered">
-           <div style="min-width:180px;" class="col-xs-3 col-centered "><a href="https://ryan-blake.github.io/komo-tea"><span id="komo"><div class="hover"></div></span></a></div>
-           <div style="min-width:180px;" class="col-xs-3 col-centered "><a href="https://ryan-blake.github.io/komo-tea"><span id="armory"><div class="hover"></div></span></a></div>
-           <div style="min-width:180px;" class="col-xs-3 col-centered "><a href="https://ryan-blake.github.io/komo-tea"><span id="alpha"><div class="hover"></div></span></a></div>
-           <div style="min-width:180px;" class="col-xs-3 col-centered "><a href="https://ryan-blake.github.io/komo-tea"><span id="minty"><div class="hover"></div></span></a></div>
-           <div class="col-xs-3 col-centered"></div>
-       </div>
-   </div>
-
-        <!-- <a id="komo" class="col-xs-3" href="https://ryan-blake.github.io/komo-tea"><div class="hover"></div>
-          <a href="#openModal" id="open-modal" style="left:calc(50% - 216px);">INFO</a>
+        <a id="komo" class="col-xs-3" href="https://ryan-blake.github.io/komo-tea"><div class="hover"></div>
+          <a href="#openModal" id="open-modal" style="left:calc(50% - 116px);">INFO</a>
           <div id="openModal" class="modalDialog">
               <div>	<a href="#close" title="Close" class="close">X</a>
                   	<h2>Komo Tea</h2>
@@ -60,7 +52,7 @@
           </div>
         </a>
         <a id="armory" class="col-xs-3" href="http://www.armoryup.com/"><div class="hover"></div>
-          <a href="#armoryModal" id="open-modal" style="margin:10px;left:calc(50% - 32px);">INFO</a>
+          <a href="#armoryModal" id="open-modal" style="left:calc(50% - -52px);">INFO</a>
           <div id="armoryModal" class="modalDialog">
               <div>	<a href="#close" title="Close" class="close">X</a>
                     <h2>Armory Up</h2>
@@ -69,16 +61,6 @@
               </div>
           </div>
         </a>
-        <a id="alpha" class="col-xs-3" href="https://ryan-blake.github.io/alpha-land/"><div style="display: inline-block;float: left;" class="hover"></div>
-          <a href="#alphaModal" id="open-modal" style="left:calc(50% - -152px);">INFO</a>
-          <div id="alphaModal" class="modalDialog">
-              <div>	<a href="#close" title="Close" class="close">X</a>
-                    <h2>Alpha</h2>
-                  <p>This landing page is built to provide information to convert<br> user interest in a product/service<br> </p>
-                  <p>vertical scrolling modern flare</p>
-              </div>
-          </div>
-        </a>-->
       </div>
     </div>
 
@@ -86,28 +68,15 @@
 
 
     <div id="footer" class="single-div" style="top:800px;left:0;position:absolute;background-color:white;height:45px;width:100%;">
-      <div class="bcg row">
+      <div class="bcg ">
       <div class="col-xs-2">
         <a href="https://www.twitter.com/ryanekbk">
           <div id="spritetwitter" class="col-xs-3 spritesheet">
           </div>
         </a>
       </div>
-      <div class="col-xs-2">
-        <a href="https://www.github.com/ryan-blake">
-          <div style="padding-right:10px;"id="spritegit" class="col-xs-3 spritesheet">
-          </div>
-        </a>
-      </div>
-      <div class="col-xs-5">
-        <a href="https://www.linkedin.com/in/ryan-kliemann">
-          <div id="spritein" class="col-xs-3 spritesheet">
-          </div>
-        </a>
-      </div>
     </div>
   </div>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 
   <script>
@@ -121,3 +90,5 @@
 </body>
 
 </html>
+<?php	get_footer();
+?>

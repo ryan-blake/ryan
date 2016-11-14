@@ -23,9 +23,11 @@ html {
   display: inline-block;
  }
 
- .headersnip {
-
+ #heading  {
+   position:absolute;
+   left: calc(50% - 180px);
  }
+
 #header{
   position:absolute;
   top:0px;
@@ -79,7 +81,15 @@ html {
  position:absolute;
  top:250px;
  left:0px;
+}
 
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    float:none;
+    /* reset the text-align */
+    /* inline-block space fix */
 }
 #komo {
   width:180px;
@@ -93,6 +103,22 @@ html {
 #armory {
 width:180px;
 background:  url(../imgs/armory_snippet.png) 0px 0px;
+height:160px;
+background-size: 180px;
+display: inline-block;
+}
+
+#alpha {
+width:180px;
+background:  url(../imgs/alpha-snippet.png) 0px 0px;
+height:160px;
+background-size: 180px;
+display: inline-block;
+}
+
+#minty {
+width:180px;
+background:  url(../imgs/minty-snippet.png) 0px 0px;
 height:160px;
 background-size: 180px;
 display: inline-block;
@@ -180,9 +206,6 @@ display: inline-block;
 /**/
 /**/
 
-
-
-
 .spritesheet {
   background: url(../imgs/iconsprites.png) center no-repeat;
   width:100%;
@@ -234,6 +257,17 @@ display: inline-block;
 }
 
 @media (min-width:40px) and (max-width:440px) {
+#heading {
+  left:calc(50% - 140px);
+  font-size: 17px;
+}
+  .col-centered {
+      float:none;
+      /* reset the text-align */
+      /* inline-block space fix */
+      left:calc(5%);
+  }
+
   #header {
    background-position: 50% 0;
   }
@@ -245,7 +279,7 @@ display: inline-block;
    top:80px !important;
  }
 
- #armory, #komo, .hover {
+ #armory, #komo, #alpha, #minty, .hover {
    width: 150px;
    height: 130px;
    background-size: 150px;
